@@ -1,0 +1,40 @@
+ConstantName,DisplayName,RecommendedValue
+SeTrustedCredManAccessPrivilege,Access Credential Manager as a trusted caller,None
+SeNetworkLogonRight,Access this computer from the network,Administrators
+SeTcbPrivilege,Act as part of the operating system,None
+SeIncreaseQuotaPrivilege,Adjust memory quotas for a process,"Administrators,LOCAL SERVICE,NETWORK SERVICE"
+SeInteractiveLogonRight,Allow log on locally,"Administrators,Users"
+SeRemoteInteractiveLogonRight,Allow log on through Remote Desktop Services,"Administrators,Remote Desktop Users"
+SeBackupPrivilege,Back up files and directories,Administrators
+SeSystemtimePrivilege,Change the system time,"Administrators,LOCAL SERVICE"
+SeTimeZonePrivilege,Change the time zone,"Administrators,LOCAL SERVICE,Users"
+SeCreatePagefilePrivilege,Create a pagefile,Administrators
+SeCreateTokenPrivilege,Create a token object,None
+SeCreateGlobalPrivilege,Create global objects,"Administrators,LOCAL SERVICE,NETWORK SERVICE,SERVICE"
+SeCreatePermanentPrivilege,Create permanent shared objects,None
+SeCreateSymbolicLinkPrivilege,Create symbolic links,Administrators
+SeDebugPrivilege,Debug programs,Administrators
+SeDenyNetworkLogonRight,Deny access to this computer from the network,"Guests, Local account"
+SeDenyBatchLogonRight,Deny log on as a batch job,Guests
+SeDenyServiceLogonRight,Deny log on as a service,Guests
+SeDenyInteractiveLogonRight,Deny log on locally,Guests
+SeDenyRemoteInteractiveLogonRight,Deny log on through Remote Desktop Services,"Guests, Local account"
+SeEnableDelegationPrivilege,Enable computer and user accounts to be trusted for delegation,None
+SeRemoteShutdownPrivilege,Force Shutdown from a Remote System,Administrators
+SeAuditPrivilege,Generate security audits,"LOCAL SERVICE,NETWORK SERVICE"
+SeImpersonatePrivilege,Impersonate a client after authentication,"Administrators,LOCAL SERVICE,NETWORK SERVICE,SERVICE"
+SeIncreaseBasePriorityPrivilege,Increase scheduling priority,Administrators
+SeLoadDriverPrivilege,Load and unload device drivers,Administrators
+SeLockMemoryPrivilege,Lock pages in memory,None
+SeBatchLogonRight,Log on as a batch job,Administrators
+SeServiceLogonRight,Log on as a service,None
+SeSecurityPrivilege,Manage auditing and security log,Administrators
+SeRelabelPrivilege,Modify an object label,None
+SeSystemEnvironmentPrivilege,Modify firmware environment values,Administrators
+SeManageVolumePrivilege,Perform volume maintenance tasks,Administrators
+SeProfileSingleProcessPrivilege,Profile single process,Administrators
+SeSystemProfilePrivilege,Profile system performance,Administrators
+SeAssignPrimaryTokenPrivilege,Replace a process level token,"LOCAL SERVICE,NETWORK SERVICE"
+SeRestorePrivilege,Restore files and directories,Administrators
+SeShutdownPrivilege,Shut down the System,"Administrators,Users"
+SeTakeOwnershipPrivilege,Take ownership of files or other objects,Administrators
