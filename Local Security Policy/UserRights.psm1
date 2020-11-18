@@ -114,15 +114,6 @@ function Get-UserRights{
 
 }
 
-function Get-NameTable{
-
-    $users = Get-WMIObject -class win32_useraccount
-    $groups = Get-WMIObject -class win32_group
-    $system = Get-WMIObject -class win32_systemaccount
-
-
-}
-
 function Add-NameToUserRights{
     param(
         [Parameter(Mandatory=$true)]
